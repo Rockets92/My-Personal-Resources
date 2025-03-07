@@ -1,0 +1,119 @@
+/* Reset di base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e1e1e1;
+    color: #333;
+  }
+  
+  /* Contenitore principale */
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* Contenitore del titolo con effetto Neumorfismo */
+  .title-container {
+    background: #e1e1e1;
+    box-shadow: 7px 7px 14px #b8b8b8, -7px -7px 14px #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .title-container h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #555;
+  }
+  
+  /* Contenitore della lista con effetto Neumorfismo */
+  .list-container {
+    background: #e1e1e1;
+    box-shadow: 7px 7px 14px #b8b8b8, -7px -7px 14px #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  /* Stile per la lista puntata */
+  .list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-container ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  /* Pulsanti social */
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px 0;
+  }
+  
+  .neumorphic-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    box-shadow: 7px 7px 14px #b8b8b8, -7px -7px 14px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .neumorphic-btn i {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .neumorphic-btn:hover {
+    box-shadow: 4px 4px 8px #b8b8b8, -4px -4px 8px #ffffff;
+    transform: translateY(-2px);
+  }
+  
+  .neumorphic-btn:active {
+    box-shadow: inset 4px 4px 8px #b8b8b8, inset -4px -4px 8px #ffffff;
+    transform: translateY(2px);
+  }
+  
+  /* Pulsante area riservata */
+  .login-btn {
+    background: #e1e1e1;
+    box-shadow: 7px 7px 14px #b8b8b8, -7px -7px 14px #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login-btn:hover {
+    box-shadow: 4px 4px 8px #b8b8b8, -4px -4px 8px #ffffff;
+    transform: translateY(-2px);
+  }
+  
+  .login-btn:active {
+    box-shadow: inset 4px 4px 8px #b8b8b8, inset -4px -4px 8px #ffffff;
+    transform: translateY(2px);
+  }  
